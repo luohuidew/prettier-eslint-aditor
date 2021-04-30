@@ -7,9 +7,9 @@ function merge() {
   return ret;
 }
 
-var ad1 = "5"
+var ad1= "5"
 
-var ada2 = 'gege';
+var ada3 = 'gege';
 console.log(merge({ a: 123 }, { b: 456 }))
 
 function f(a, b) {
