@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint --ext .js,.vue src",
+    "lint": "eslint --ext .js,.vue src --fix",
     "prettier": "prettier --write ."
   },
-  "precommit": ["lint", "prettier"],
-
+  "precommit": [
+    "lint",
+    "prettier"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
