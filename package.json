@@ -8,27 +8,16 @@
     "prettier": "prettier --write ."
   },
   "husky": {
-
     "hooks": {
-
       "pre-commit": "lint-staged"
-
     }
-
   },
-
   "lint-staged": {
-
     "*": [
-
       "npm run prettier",
-
       "npm run lint",
-
       "git add ."
-
     ]
-
   },
   "author": "",
   "license": "ISC",
@@ -40,6 +29,7 @@
     "eslint-plugin-prettier": "^3.4.0",
     "husky": "^6.0.0",
     "lint-staged": "^10.5.4",
+    "pre-commit": "^1.2.2",
     "prettier": "^2.2.1"
   }
 }
