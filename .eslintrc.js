@@ -8,8 +8,8 @@ module.exports = {
   plugins: ['prettier'],
   rules: {
     'prettier/prettier': 'error', // 不符合 prettier 规则的代码，要进行错误提示（红线）
-    'no-console': 'off',
+    'no-console': 0,
     semi: [0],
-    quotes: [1, 'single'],
+    quotes: [2, 'single'],
   },
 }

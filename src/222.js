@@ -1,3 +1,4 @@
+
 function merge() {
   var ret = {}
   for (var i in arguments) {
@@ -9,6 +10,6 @@ function merge() {
 
 var ad1 = '5'
 
-var add3 = 'gegesss'
-
-console.log(ad1, add3, merge)
+var ada3 = 'gegesss'
+console.log(merge({ a: 123 }, { b: 456 }))
+console.log(ada3, ad1)
